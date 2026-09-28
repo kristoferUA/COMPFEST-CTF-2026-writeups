@@ -275,6 +275,10 @@ The full check verifies all `33536` known plaintext/ciphertext blocks.
 
 ```text
 solve.py                  offline verifier and final decryptor
+archive/chall.py          source task file
+archive/records.bin       source task file
+archive/records.json      source task file
+archive/sealed.json       source task file
 tools/integral_notes.py   small helper showing the q inverse and matrix inverse idea
 tests/test_flag.py        sanity check for the final flag suffix
 requirements.txt          runtime dependencies
